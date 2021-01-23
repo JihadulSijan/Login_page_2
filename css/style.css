@@ -1,0 +1,160 @@
+body {
+    background-image: linear-gradient(-260deg, #4459D0, #C950C1);
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 1049px;
+    height: 500px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow:0px 0px 40px 3px;
+}
+
+h1 {
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Stalinist One', cursive;
+    letter-spacing: 10px;
+    color:#325c9c;
+    text-shadow:-17px 18px 8px #587db5;
+    transition:0.7s;
+    
+}
+h1:hover {
+    text-shadow:none;
+    transition:0.7s;
+}
+
+.circle {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: #dcdbdb24;
+    box-shadow: 0px 13px 26px -13px;
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    margin-top:25px;
+     transition:1s;
+}
+.circle:hover {
+    box-shadow:none;
+    transition:1s;
+
+}
+.icon {
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon:hover {
+    box-shadow:
+}
+
+.form {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 170px;
+    transform: translateY(-50%);
+    text-align:center;
+}
+.form h2 {
+    color:#2d6e7d;
+    font-family: 'Stalinist One', cursive;
+    margin-bottom:30px;
+    position:relative;
+    left:23px;
+    
+}
+.form h2:hover {
+    text-decoration:underline;
+}
+
+.form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+  
+    background: #EDEDED;
+    margin-bottom: 8px;
+    
+}
+.bar {
+  position:absolute;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%,-50%);  
+}
+input {
+    margin:0;
+    margin-bottom:15px;
+}
+.input input:hover {
+    background:#d1d1d1;
+}
+.inputwithicon input[type=text] {
+    padding-left:35px;
+    transition:0.3s;
+}
+.inputwithicon input[type=Password] {
+    padding-left:35px;
+    transition:0.3s;
+}
+.inputwithicon {
+    position:relative;
+}
+.inputwithicon i {
+    position:absolute;
+    left:2px;
+    top:10.5px;
+    padding:9px;
+    color:#818181;
+    
+}
+.inputwithicon input[type=text]:focus{
+    box-shadow:0px 0px 5px 1px dodgerblue;
+    color:dodgerblue;
+}
+.inputwithicon input[type=password]:focus{
+    box-shadow:0px 0px 5px 1px dodgerblue;
+    color:dodgerblue;
+}
+.inputwithicon i:focus{
+    color:dodgerblue !important;
+}
+button {
+    width:116%;
+    padding:20px;
+    outline:none;
+    border:none;
+    margin-top:35px;
+    display:inline-grid;
+    position:center;
+    background:green;
+    color:white;
+    font-size:15px;
+}
+button:hover {
+    background:limegreen;
+    cursor:pointer;
+    text-decoration:underline;
+    transition:0.8s;
+}
+button:focus {
+    background:red;
+}
